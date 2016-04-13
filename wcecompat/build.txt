@@ -1,0 +1,13 @@
+REM c:\Program Files (x86)\Microsoft Visual Studio 9.0\
+
+set OSVERSION=WCE600
+
+set TARGETCPU=ARMV4I
+
+set PLATFORM=VC-CE
+
+set PATH=C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\ce\bin\x86_arm;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE;%PATH%
+
+set INCLUDE=C:\Program Files (x86)\Windows CE Tools\wce600\Motorola MC3100c60 Windows CE6.0 PSDK\include\ARMV4I
+
+set LIB=C:\Program Files (x86)\Windows CE Tools\wce600\Motorola MC3100c60 Windows CE6.0 PSDK\lib\ARMV4I;C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\ce\lib\armv4i

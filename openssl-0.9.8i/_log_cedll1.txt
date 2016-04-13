@@ -1,0 +1,3 @@
+Building OpenSSL
+	link /nologo /opt:ref /subsystem:windowsce,6.00 /machine:THUMB /NODEFAULTLIB:oldnames.lib /NODEFAULTLIB:libc.lib coredll.lib corelibc.lib /dll /out:out32dll_ARMV4I\libeay32.dll /def:ms/LIBEAY32.def @C:\Users\E841719\AppData\Local\Temp\nm3C55.tmp
+tmp32dll_ARMV4I\cryptlib.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'THUMB'
